@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Community Market",
+    "description": "A persistent player economy with a market ledger and trading tools.",
+    "uuid": "4a8b8dd2-1c55-4be7-b929-82b5bf406a34",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "e050d254-0e81-4bd7-8bb3-609846cb3284",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "44b7c352-8782-43dd-bc42-8b9b1b0a7ac8",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    { "module_name": "@minecraft/server", "version": "1.16.0" },
+    { "module_name": "@minecraft/server-ui", "version": "1.3.0" }
+  ]
+}

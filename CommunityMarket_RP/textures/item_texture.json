@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "Community Market Resources",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "ledger": {
+      "textures": "textures/items/book_enchanted"
+    }
+  }
+}
